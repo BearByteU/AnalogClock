@@ -1,0 +1,40 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    border: 2 px solid red;
+    height: 40vw;
+    width: 40vw;
+    background: url(AnalogWatch.jpg) no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second{
+    position:absolute;
+    background:black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.24%;
+    height: 16.5%;
+    top: 34%;
+    left: 49.3%;
+    opacity: 68.4%;
+    
+    
+}
+#minute{
+    width: 0.7%;
+    height: 29%;
+    top: 23%;
+    left: 49.6%;
+    opacity: 54.8%;
+    
+
+}
+#second{
+    width: 0.3%;
+    height: 33%;
+    top: 18%;
+    left: 49.6%;
+    
+}
